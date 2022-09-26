@@ -1,0 +1,57 @@
+{
+  "productionMode": true,
+  "useDeprecatedV14Bootstrapping": false,
+  "eagerServerLoad": false,
+  "chunks": {
+    "fallback": {
+      "jsModules": [
+        "@polymer/iron-icon/iron-icon.js",
+        "@vaadin/time-picker/src/vaadin-time-picker.js",
+        "./vaadin-time-picker/timepickerConnector.js",
+        "@vaadin/date-picker/src/vaadin-date-picker.js",
+        "./datepickerConnector.js",
+        "@vaadin/grid/src/vaadin-grid-tree-toggle.js",
+        "@vaadin/details/src/vaadin-details.js",
+        "@vaadin/email-field/src/vaadin-email-field.js",
+        "@vaadin/list-box/src/vaadin-list-box.js",
+        "@vaadin/item/src/vaadin-item.js",
+        "@vaadin/form-layout/src/vaadin-form-layout.js",
+        "@vaadin/date-time-picker/src/vaadin-date-time-picker.js",
+        "@vaadin/scroller/vaadin-scroller.js",
+        "@vaadin/avatar-group/src/vaadin-avatar-group.js",
+        "@vaadin/radio-group/src/vaadin-radio-button.js",
+        "@vaadin/message-input/src/vaadin-message-input.js",
+        "@vaadin/radio-group/src/vaadin-radio-group.js",
+        "@vaadin/progress-bar/src/vaadin-progress-bar.js",
+        "@vaadin/upload/src/vaadin-upload.js",
+        "./messageListConnector.js",
+        "@vaadin/message-list/src/vaadin-message-list.js",
+        "@vaadin/virtual-list/vaadin-virtual-list.js",
+        "./virtualListConnector.js",
+        "@vaadin/tabs/src/vaadin-tabs.js",
+        "./menubarConnector.js",
+        "@vaadin/menu-bar/src/vaadin-menu-bar.js",
+        "@vaadin/combo-box/src/vaadin-combo-box.js",
+        "./comboBoxConnector.js",
+        "@vaadin/upload/src/vaadin-upload-file.js",
+        "@vaadin/password-field/src/vaadin-password-field.js",
+        "@vaadin/number-field/src/vaadin-number-field.js",
+        "@vaadin/integer-field/src/vaadin-integer-field.js",
+        "@vaadin/form-layout/src/vaadin-form-item.js",
+        "@vaadin/login/src/vaadin-login-overlay.js",
+        "./loginOverlayConnector.js",
+        "@vaadin/split-layout/src/vaadin-split-layout.js",
+        "./vaadin-big-decimal-field.js",
+        "@vaadin/custom-field/src/vaadin-custom-field.js",
+        "@vaadin/avatar/src/vaadin-avatar.js",
+        "@vaadin/accordion/src/vaadin-accordion.js",
+        "@vaadin/text-area/src/vaadin-text-area.js",
+        "@vaadin/tabs/src/vaadin-tab.js"
+      ],
+      "cssImports": [
+        
+      ]
+    }
+  },
+  "enableDevServer": false
+}

@@ -1,0 +1,8 @@
+org/vaadin/example/authentication/LoginFormElement.class
+org/vaadin/example/about/AboutViewIT.class
+org/vaadin/example/crud/ProductFormElement.class
+org/vaadin/example/authentication/LoginScreenIT.class
+org/vaadin/example/AbstractViewTest.class
+org/vaadin/example/MainLayoutElement.class
+org/vaadin/example/backend/DataServiceTest.class
+org/vaadin/example/crud/SampleCrudViewIT.class

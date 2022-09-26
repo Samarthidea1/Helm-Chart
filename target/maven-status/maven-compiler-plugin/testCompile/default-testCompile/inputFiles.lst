@@ -1,0 +1,8 @@
+/home/ubuntu/DevOps-Assessment/src/test/java/org/vaadin/example/authentication/LoginScreenIT.java
+/home/ubuntu/DevOps-Assessment/src/test/java/org/vaadin/example/AbstractViewTest.java
+/home/ubuntu/DevOps-Assessment/src/test/java/org/vaadin/example/MainLayoutElement.java
+/home/ubuntu/DevOps-Assessment/src/test/java/org/vaadin/example/authentication/LoginFormElement.java
+/home/ubuntu/DevOps-Assessment/src/test/java/org/vaadin/example/about/AboutViewIT.java
+/home/ubuntu/DevOps-Assessment/src/test/java/org/vaadin/example/backend/DataServiceTest.java
+/home/ubuntu/DevOps-Assessment/src/test/java/org/vaadin/example/crud/ProductFormElement.java
+/home/ubuntu/DevOps-Assessment/src/test/java/org/vaadin/example/crud/SampleCrudViewIT.java
