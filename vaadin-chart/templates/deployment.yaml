@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "vaadin-chart.fullname" . }}
+spec:
+  replicas: {{  .Values.replicaCount  }}
+  selector:
+    matchLabels:
+      app: vaadin
+  template:
+    metadata:
+      labels:
+        app: vaadin
+    spec:
+      containers:
+      - name: {{ .Chart.Name }}
+        image: {{ .Values.image.repository }}
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        ports:
+        - containerPort: {{ .Values.service.port }}
+      restartPolicy: {{ .Values.image.restartPolicy }}
+      imagePullSecrets:
+      - name: regcred

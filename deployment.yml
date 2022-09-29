@@ -13,7 +13,7 @@ spec:
         app: vaadin
     spec:
       containers:
-      - name: vaadin
+      - name: minikube
         image: samarth1311/vaadin:latest
         imagePullPolicy: Always
         ports:
